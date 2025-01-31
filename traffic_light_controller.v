@@ -41,12 +41,12 @@ module traffic_light_controller(hwy,cntry,X,clock,reset);
 			    case(present_state)
 				     S0   : begin
 					             hwy = GREEN;
-									 cntry = RED;
-							    end
+						     cntry = RED;
+					    end
 					  S1   : begin
 					              hwy = YELLOW;
-									  cntry = RED;
-								 end
+						      cntry = RED;
+						  end
 					  S2   : begin
 					              hwy = RED;
 									  cntry = RED;
